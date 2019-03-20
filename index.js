@@ -6,7 +6,7 @@ function  takeANumber(currentLine, newName){
 
 
 
-//purpose: accept current line of people and returns it as string 
+//purpose: accept the current line of people and return the first person in line, then remove that individual from the line 
 function nowServing (currentLine){
   if (currentLine.length === 0){ // could also write "if (!currentLine.length)"
        return "There is nobody waiting to be served!";
