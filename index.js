@@ -1,5 +1,4 @@
-
-
+//purpose: add new person to the end of the currentline 
 function  takeANumber(currentLine, newName){
   currentLine.push(newName);
   return `Welcome, ${newName}. You are number ${currentLine.length} in line.`
@@ -14,6 +13,7 @@ function nowServing (currentLine){
   }
     return `Currently serving ${currentLine.shift()}.`;
 }
+
 
 function currentLine (line){
   if (line.length===0){
