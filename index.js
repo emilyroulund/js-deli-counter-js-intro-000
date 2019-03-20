@@ -1,8 +1,13 @@
+
+
 function  takeANumber(currentLine, newName){
   currentLine.push(newName);
   return `Welcome, ${newName}. You are number ${currentLine.length} in line.`
 }
 
+
+
+//purpose: accept current line of people and returns it as string 
 function nowServing (currentLine){
   if (currentLine.length === 0){ // could also write "if (!currentLine.length)"
        return "There is nobody waiting to be served!";
