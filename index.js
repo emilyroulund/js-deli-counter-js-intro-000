@@ -14,7 +14,7 @@ function nowServing (currentLine){
     return `Currently serving ${currentLine.shift()}.`;
 }
 
-
+//purpose: accept current line of people and returns it as string
 function currentLine (line){
   if (line.length===0){
     return "The line is currently empty." ;
